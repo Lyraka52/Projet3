@@ -3,10 +3,13 @@ class Voiture:
         self.immatriculation = immatriculation
         self.marque = marque
         self.nom_prop = nom_prop
-        self.abonne = abonne
+        self.abonne = abonne 
 
-    def place(self):
-        if self.abonne == False:
-            return None
-        else:
-            return
+
+class Parking:
+    def __init__(self, abonnes:lst,places:lst):
+        self.abonnes = abonnes
+        self.places = places
+
+    def abonnement(self):
+        if:
