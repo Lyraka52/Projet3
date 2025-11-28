@@ -4,12 +4,8 @@ class Voiture:
         self.marque = marque
         self.nom_prop = nom_prop
         self.abonne = abonne 
-
-
+    
 class Parking:
-    def __init__(self, abonnes:lst,places:lst):
+    def __init__(self, abonnes:list):
         self.abonnes = abonnes
-        self.places = places
-
-    def abonnement(self):
-        if:
+        places = []
