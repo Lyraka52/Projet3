@@ -1,8 +1,6 @@
 import random
 
-marques = ["Renault", "Peugeot", "Citroën", "Opel", "Volkswagen","Toyota", 
-           "BMW", "Mercedes", "Audi", "Ford","Nissan", "Hyundai", "Fiat", 
-           "Dacia","Honda", "Mazda", "Volvo", "Tesla"]
+marques = ["Renault", "Peugeot", "Citroën", "Opel", "Volkswagen","Toyota", "BMW", "Mercedes", "Audi", "Ford","Nissan", "Hyundai", "Fiat", "Dacia","Honda", "Mazda", "Volvo", "Tesla"]
 
 
 class Voiture:
@@ -110,19 +108,19 @@ print("\n--- Abonnement ---")
 p.abonner(v1, 120)
 v1.afficher()
 
-# Garer v2 sur une place normale
+# Gare v2 sur une place normale
 print("\n--- Garer une voiture ---")
 p.garer(v2, 50)
 
-# Garer v3 sur la place d’un abonné pour tester la fonction
+# Gare v3 sur la place d’un abonné pour tester la fonction
 p.garer(v3, 120)
 
-# Afficher niveau 2 (places 81 à 160)
+# Affiche niveau 2 (places 81 à 160)
 print("\n--- Niveau 2 ---")
 p.afficher_niveau(2)
 p.afficher_niveau(5)
 
-# Vérifier les places d'abonnés occupées par d'autres voitures
+# Vérifie les places d'abonnés occupées par d'autres voitures
 print("\n--- Places abonnés occupées par d'autres voitures ---")
 print(p.places_abonnes_occupees_par_autres())
 
