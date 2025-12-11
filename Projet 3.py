@@ -103,16 +103,16 @@ v1 = Voiture("AA-111-AA", random.choice(marques), "Alice", False)
 v2 = Voiture("BB-222-BB", random.choice(marques), "Bob", False)
 v3 = Voiture("CC-333-CC", random.choice(marques), "Chris", False)
 
-# Abonner une voiture (v1 à la place 120)
+# Abonne une voiture (voiture 1 à la place 120)
 print("\n--- Abonnement ---")
 p.abonner(v1, 120)
 v1.afficher()
 
-# Gare v2 sur une place normale
+# Gare la voiture 2 sur une place normale
 print("\n--- Garer une voiture ---")
 p.garer(v2, 50)
 
-# Gare v3 sur la place d’un abonné pour tester la fonction
+# Gare la voiture 3 sur la place d’un abonné pour tester la fonction
 p.garer(v3, 120)
 
 # Affiche niveau 2 (places 81 à 160)
